@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wazne {
+            border-radius: 5px;
+            border: 1px solid red;
+            background-color: rgb(91, 0, 0);
+        }
+
+        .weak {
+            background-color:rgb(91, 0, 0);
+        }
+
+        .medium {
+            background-color:rgb(205, 75, 0);
+        }
+
+        .almost {
+            background-color:rgb(205, 174, 0);
+        }
+
+        .close {
+            background-color:rgb(140, 205, 0);
+        }
+
+        .ok, .super {
+            background-color:rgb(65, 205, 0);
+        }
+
+        .extra {
+            background-color:rgb(35, 110, 0);
+        }
+
+        #kontener > span {
+            border-radius: 5px;
+            color: white;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            display: inline-block;
+            height: 20px;
+
+        }
+
+        #powierzchniaTestowa {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        #zegarstop, #zegarstart {
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            cursor: pointer;
+        }
+        #zegarstop:hover, #zegarstart:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+<h3 id="element3">naglowek</h3>
+<div id="zegarek"></div>
+<div id="zegarstop">Zatrzymaj zegar</div>
+<div id="zegarstart">wznów zegar</div>
+
+<p>
+    <span class="tekscik">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam omnis libero, possimus odio rerum nemo architecto eaque iste minima illum laudantium aperiam sit praesentium saepe, quos adipisci harum debitis atque.</span><span>Maxime et deleniti repellat dolorem ullam. Eveniet eaque repellat perferendis aliquid, debitis sint ab hic distinctio repudiandae facilis quibusdam alias illo totam quas, eligendi blanditiis eos. Voluptates tenetur voluptatibus ipsa?</span><span>Rem labore voluptas, commodi sit beatae est recusandae quisquam odio, expedita doloremque, culpa ratione! Mollitia ea consequatur, hic tenetur culpa voluptatum at officia perferendis magnam quos minima corrupti placeat accusantium!</span><span>Necessitatibus, quos! Aliquid, minus amet dolore, impedit nesciunt explicabo quos laboriosam, odio qui ipsam atque beatae corporis placeat dolores reiciendis? Veritatis quidem atque quam pariatur numquam nostrum. Rem, culpa quos?</span><span>Necessitatibus perferendis doloribus, dolores velit unde ut dolor possimus libero blanditiis maxime odio voluptatibus magnam facilis dignissimos numquam. Vero et repellendus debitis consequuntur suscipit laboriosam incidunt dolorem culpa earum vel.</span><span>Consectetur quasi voluptate labore, quos eligendi, error perferendis impedit eum ab laborum pariatur animi quidem beatae cumque soluta. Maiores quisquam assumenda doloremque? Dicta, quas aperiam! Rem voluptate sed in quibusdam!</span><span>Dignissimos, veniam excepturi accusantium necessitatibus iste quam, reprehenderit voluptate, similique itaque minus qui cum numquam! Recusandae dolores earum aut provident sequi, quod quisquam facilis ullam voluptatem quidem delectus ea repellat!</span><span>Deserunt sunt fugiat quidem repudiandae explicabo incidunt commodi esse recusandae ratione atque eum tempore labore tenetur, minima cumque necessitatibus voluptatem vero. Cumque voluptate, quam dolores odio esse quibusdam ullam perferendis!
+
+    </span>
+</p>
+
+
+<table>
+    <tr>
+        <td class="tekscik tabela">test pierwszy</td>
+        <td id="element1">test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td id="element2">test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test ostatni</td>
+    </tr>
+</table>
+
+<form action="">
+    <input type="text" name="imie">
+    <input type="text" name="nazwisko">
+    <input type="button" id="set" value="Ustaw atrybut">
+    <input type="button" id="del" value="Usun atrybut">
+</form>
+
+<form>
+    <input type="password" name="haslo" value="poczatkowa">
+    <span id="sila"></span>
+</form>
+
+<form>
+    <input type="button" name="dodaj" value="dodaj element">
+    <div id="kontener">
+
+    </div>
+</form>
+
+
+<div id="powierzchniaTestowa"></div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

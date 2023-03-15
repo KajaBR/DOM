@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wazne{
+            border-radius: 5px;
+            border:1px solid red;
+            background: rgb(0, 0, 0);
+        }
+
+        .weak{
+            background-color: rgb(172, 15, 15);
+        }
+
+        .medium{
+            background-color: rgb(224, 34, 34);
+        }
+
+        .almost{
+            background-color: rgb(168, 107, 15);
+        }
+
+        .close{
+            background-color: rgb(154, 170, 14);
+        }
+
+        .ok{
+            background-color: rgb(93, 143, 13);
+        }
+
+        .super{
+            background-color: rgb(25, 148, 14);
+        }
+
+        .extra{
+            background-color: rgb(17, 143, 13);
+        }
+
+        #kontener > span {
+            border-radius: 5px;
+            color: white;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            display: inline-block;
+            height: 20px;
+
+        }
+
+        #powierzchniaTestowa {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        #zegarstop, #zegarstart {
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            cursor: pointer;
+        }
+        #zegarstop:hover, #zegarstart:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h3 id="element3">Nagłówek</h3>
+
+    <div id="zegarek"></div>
+    <div id="zegarstop">Zatrzymaj zegar</div>
+    <div id="zegarstart">Wznów zegar</div>
+
+    <p>
+        <span class="tekscik">
+            My mind and me
+            We don't get along sometimes
+            And it gets hard to breathe
+            But I wouldn't change my life
+            And all of the crashin' and burnin' and breakin', I know now
+            If somebody sees me like this, then they won't feel alone now
+            My mind and me
+            It's hard to talk and feel heard when you always feel like a burden
+            Don't wanna add to concern I know they already got
+            But if I pull back the curtain, then maybe someone who's hurtin'
+            Will be a little more certain they're not the only one lost    
+        </span>
+    </p>
+    
+    
+    <table>
+        <tr>
+            <td class="tekscik tabela">test pierwszy</td>
+            <td id="element1">test</td>
+            <td>test</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+        <tr>
+            <td>tekst</td>
+            <td>tekst</td>
+            <td>tekst</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <input type="text" name="imie">
+        <input type="text" name="nazwisko">
+        <input type="password" name="haslo" value="poczatkowa">
+        <input type="button"  id="set" value="Ustaw atrybut">
+        <input type="button"  id="del" value="Usuń atrybut">
+    </form>
+
+
+    <form>
+        <input type="password" name="haslo" value="poczatkowa">
+        <span id="sila"></span>
+    </form>
+    
+    <form>
+        <input type="button" name="dodaj" value="dodaj element">
+        <div id="kontener">
+    
+        </div>
+    </form>
+
+    <div id="powierzchniaTestowa"></div>
+
+    
+    <script src="index_moj.js"></script>
+</body>
+</html>
